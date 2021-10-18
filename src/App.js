@@ -7,8 +7,6 @@ import myEpicNft from './utils/MyEpicNFT.json';
 import { Grid, Typography, Button } from '@mui/material';
 
 //Constants
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
 const OPENSEA_LINK = process.env.REACT_APP_OPENSEA_LINK;
 const TOTAL_MINT_COUNT = 50;
 
@@ -160,17 +158,6 @@ const App = () => {
             </Grid>
           </Grid>
         </Grid>
-        {/* <div>
-          <div className="footer-container">
-            <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-            <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-            >{`built on @${TWITTER_HANDLE}`}</a>
-          </div>
-        </div> */}
       </div>
     </div>
   );
